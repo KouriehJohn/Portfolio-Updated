@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-vertical-center {
@@ -80,6 +80,7 @@ h1 {
     border-radius: 4px;
     color: #333;
     background-color: rgb(255,255,255);
+    margin: auto;
 }
 
 .btn-light:hover,
@@ -211,6 +212,15 @@ hr.small {
 
 .service-item {
     margin-bottom: 30px;
+}
+
+/* For Modals  */
+.service-item-modal {
+    margin-bottom: 10px;
+}
+
+.modal-list {
+    text-align:left;
 }
 
 /* Callout */
