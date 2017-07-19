@@ -214,13 +214,17 @@ hr.small {
     margin-bottom: 30px;
 }
 
-/* For Modals  */
-.service-item-modal {
+/* For Modals - This div has been removed, add one to use. */
+ /* .service-item-modal {
     margin-bottom: 10px;
-}
+}  */
 
 .modal-list {
     text-align:left;
+}
+
+.modal-underline {
+    text-decoration: underline;
 }
 
 /* Callout */
