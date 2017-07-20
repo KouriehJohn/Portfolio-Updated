@@ -89,6 +89,7 @@ h1 {
 .btn-light:active {
     color: #333;
     background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 2px 3px 0 #000; 
 }
 
 /* Custom Horizontal Rule */
@@ -273,7 +274,7 @@ hr.small {
 }
 
 /* Box shadow when hovering over portfolio item  */
-.portfolio-item:hover{
+.portfolio-item:hover {
   box-shadow: 0 8px 15px 0 #999;
 }
 
