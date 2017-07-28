@@ -9,7 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>John Kourieh</title>
+    <title>JovikMedia</title>
+
+    <!-- Normalize CSS  -->
+    <link rel="stylesheet" type="text/css" href="normalize/normalize.css">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -30,6 +33,8 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon1.ico">
+
 </head>
 
 <body>
@@ -44,6 +49,10 @@
             </li>
             <hr class="small">
             <li>
+                <span class="fa-stack fa-1x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-check-square fa-stack-1x text-primary"></i>
+                 </span>
                 <a href="#top" onclick=$("#menu-close").click();>Home</a>
             </li>
             <li>
@@ -58,14 +67,20 @@
             <li>
                 <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
             </li>
+            <li>
+                <a href="services.html" onclick=$("#menu-close").click();>Services  <img src="img/favicon1.ico" alt="image/x-icon"></a>
+            </li>
         </ul>
     </nav>
 
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>John Kourieh</h1>
-            <h3>Hello and Welcome to my Homepage</h3>
+            <h1>Jovik</h1>
+            <h1>Media</h1>
+            <hr class="small">
+            <br>
+            <h2>Hello and Welcome to my Homepage</h2>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
@@ -77,6 +92,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="shadow">Designed for Clean Feel Navigation</h2>
+                    <hr class="small">
                     <p class="lead">Here's a link to my <a target="_blank" href="https://github.com/KouriehJohn">GitHub</a> profile.</p>
                 </div>
             </div>
@@ -127,21 +143,18 @@
                                                             <p>
                                                             <h2>HTML5</h2>
                                                             Being the base of everything on the web, it was important to spend 
-                                                            a fair amount of time practicing and getting very familiar with.
+                                                            a fair amount of time practicing and getting very familiar with. I am 
+                                                            practiced with the new HTML5 features, to list a few.
                                                             </p>
                                                                 <hr class="small">
                                                             <p>
-                                                                <strong>
-                                                                    I am famililar with HTML5 features such as the new:
-                                                                    <ul class="modal-list">
-                                                                        <li><h4>header</h4></li>
-                                                                        <li><h4>footer</h4></li>
-                                                                        <li><h4>nav</h4></li>
-                                                                        <li><h4>aside</h4></li>
-                                                                        <li><h4>article</h4></li>
-                                                                    </ul>
-                                                                    All of which help more easily lay out a website.
-                                                                </strong>
+                                                                <ul class="modal-list">
+                                                                    <li><h4>&lt;header&gt;</h4>- A more descriptive way to arrange the title sections on a site.</li>
+                                                                    <li><h4>&lt;footer&gt;</h4>-A more descriptive way to arrange the base sections on a site.</li>
+                                                                    <li><h4>&lt;nav&gt;</h4>- A clenaer way to lay out the naviation on sites.</li>
+                                                                    <li><h4>&lt;aside&gt;</h4>- Allows you to more easily arrange sections during tile layout.</li>
+                                                                    <li><h4>&lt;article&gt;</h4>- More cleanly labels and sections of parts of layout.</li>
+                                                                </ul>
                                                             </p>
                                                         </div>
                                                     <div class="modal-footer">
@@ -194,14 +207,14 @@
                                                     Being what styles and gives flavor to sites, is just the beginning with 
                                                     CSS3. The way you target HTML elements with CSS is quite similar to how
                                                     JavaScript also targets HTML elements. One can never learn enough CSS!  
+                                                    I am practiced with the new CSS3 features, to name a few.
                                                 </p>
                                                     <hr class="small">
                                                  <p class="modal-p">
-                                                    I am famililar with CSS3 features such as the new:
                                                     <ul class="modal-list">
-                                                        <li><div class="modal-underline">Box Model</div>Which helps you envision how CSS wraps around an HTML element.</li>
-                                                        <li><div class="modal-underline">Column control</div>Which allows your to control the width and amount of columns.</li>
-                                                        <li><div class="modal-underline">Media queries</div>Which help greatly in responsivness to different screens.</li>
+                                                        <li><div class="modal-underline">The box model</div>Which helps you envision how CSS wraps around an HTML element.</li>
+                                                        <li><div class="modal-underline">Column control</div>Which allows you to control the width and amount of columns.</li>
+                                                        <li><div class="modal-underline">Media queries</div>Which help greatly in responsiveness to different screens.</li>
                                                     </ul>
                                                 </p>
                                                     <hr class="small">
@@ -260,15 +273,15 @@
                                                 <p class="modal-p">
                                                     <h3>Development Enviroments</h3>
                                                     I've tried my fair share of code editors from light weight, to Visual Studio. They all have their
-                                                    positives and negatives. Some get in your way, while others help but take a long time to set up.  
+                                                    positives and negatives. Some get in your way, while others help but take a long time to set up. 
+                                                    Here's some details about a few IDE's I have tried. 
                                                 </p>
                                                     <hr class="small">
                                                  <p class="modal-p">
-                                                    I have tried a few, to name some -
                                                     <ul class="modal-list">
-                                                        <li><div class="modal-underline">Visual Studio Code</div> - Very fast and easy to edit with. Like anything MicroSoft, it does have its moods.</li>
-                                                        <li><div class="modal-underline">Atom</div> - A beautiful and helpful editor, altough its slower to load and sometimes its plugins are in my way.</li>
-                                                        <li><div class="modal-underline">Sublime Text</div> - Probably my favorite editor, it's quick and doesn't get in your way. An added plus is its univeral across platforms.</li>
+                                                        <li><div class="modal-underline">Visual Studio Code</div> - Very fast and easy to edit with. Like anything else MicroSoft, it does have its moods.</li>
+                                                        <li><div class="modal-underline">Atom</div> -A beautiful and helpful editor, although it is slower to load and sometimes its plugins are in my way.</li>
+                                                        <li><div class="modal-underline">Sublime Text</div> - Probably, my favorite editor. It's quick and doesn't get in your way. An added plus is its universal across platforms.</li>
                                                         <li><div class="modal-underline">Dreamweaver</div> - A great tool with its own unique style and feel. Quite premium!</li>
                                                     </ul>
                                                 </p>    
@@ -298,7 +311,6 @@
 
                             <!-- Modal Start for GitHub  -->
                                 
-                               
                                 
                                 <!-- Trigger the modal with this button -->
                                     <button type="button" class="btn btn-light" data-toggle="modal" data-target="#myGit">Learn More</button>
@@ -320,18 +332,17 @@
                                                 <div class="modal-body">
                                                 <p class="modal-p">
                                                     <h3>Version Control</h3>
-                                                    Very familair and practiced with Github version control, what it does and why. I have done so using the 
-                                                    command line for Windows 7 and 10 as well as Git's GUI. I prefer the command line. I have also practiced the 
-                                                    using same process with a Linux operating system.
+                                                    Very familiar and practiced with Github version control, what it does and why. I have done so using the 
+                                                    command line for Windows 7 and 10 as well as Git's GUI. I prefer the command line. I have also practiced using the
+                                                    same process with a Linux operating system.
                                                 </p>
                                                     <hr class="small">
                                                  <p class="modal-p">
-                                                    I have practiced a lot using Git in many ways -
                                                     <ul class="modal-list">
                                                         <li><div class="modal-underline">Getting Started</div>Installing Git, initializing a repository.</li>
                                                         <li><div class="modal-underline">Cloning, Push, Pull</div>Practiced cloning from repositories, pushing changes made from daily work flow as well as pulling from branches as needed.</li>
-                                                        <li><div class="modal-underline">Master and Branch control</div>Finding yourself working on different features of the same project, its best to sperate the branches and merge to the master to avoid bugs.</li>
-                                                        <li><div class="modal-underline">IDE environment</div>Though I prefer the command line, many of the IDE's I have worked with allow Git version integration which do make workflow smoother.</li>
+                                                        <li><div class="modal-underline">Master and Branch control</div>Finding yourself working on different features of the same project, it's best to separate the branches and merges to the master to avoid bugs</li>
+                                                        <li><div class="modal-underline">IDE environment</div>Though I prefer the command line, many of the IDE's I have worked with allowed Git version integration which does make workflow smoother.</li>
                                                     </ul>
                                                 </p>    
                                                 </div>
@@ -408,18 +419,16 @@
                                                     <div class="modal-body">
                                                         <p>
                                                             <h3>Research</h3>
-                                                            The single largest factor I have come across while learning programming and development is; the more one learns,
-                                                            you understand the less you actually know.  
+                                                            The single largest factor I have come across while learning programming and development is 
+                                                            the more one learns you understand the less you actually know. I am familiar with and
+                                                            comfortable with the concept of NOT knowing something. I have come to understand and feel 
+                                                            confident with the following. 
                                                         </p>
-                                                        <p>
-                                                        I am famililar with and comfortable with the concept of NOT knowing something, it happens a lot with this industry.
-                                                        I have come to understand the feel confident with the folling.
                                                         <ul class="modal-list">
-                                                            <li>Google has become the ultimate tool for this problem!</li>
-                                                            <li>At times it may take mere moments, other times it may take hours. Sometimes you only need a clue!</li>
-                                                            <li>Keeping at a problem and having the need and want to solve it nearly always yeilds results.</li>
+                                                            <li>Google has become the ultimate tool aid in solving this problem!</li>
+                                                            <li>Keeping at a problem and having the need and want to solve it nearly always yields results.</li>
                                                             <li>Keeping a positive lean into a problem and knowing when to back off is the method.</li>
-                                                            <li>Constatly learning is a fun and fulfilling part of my every day.</li>
+                                                            <li>Constantly learning is a fun and fulfilling part of my every day.</li>
                                                         </ul>
                                                     </div>
                                                 <div class="modal-footer">
@@ -480,9 +489,9 @@
                                                             <li>Keeping labeled and dated notes along with an expiration date has become key for my workflow!</li>
                                                             <li>Avoiding clutter and keeping a clean workspace allows one to think more clearly.</li>
                                                             <li>Transferring daily notes into virtual notes/tasks when needed is a great way to keep a clean desk.</li>
-                                                            <li>Interupptions happen, the smallest notes help keep the mental inventory clear and help keep on track to continue.</li>
-                                                            <li>Needs analysis and problem solving approach.</li>
-                                                            <li>Creating action plans to keep consistent workflow. Efficiency improvments tend to compound.</li>
+                                                            <li>Interruptions happen, the smallest notes help keep the mental inventory clear and help keep on track to continue.</li>
+                                                            <li>Needs analysis and problem-solving approach.</li>
+                                                            <li>Creating action plans to keep consistent workflow. Efficiency improvements tend to compound.</li>
                                                         </ul>
                                                         </p>
                                                     </div>
@@ -536,15 +545,16 @@
                                                     <div class="modal-body">
                                                         <p>
                                                             <h3>Chemistry</h3>
-                                                            Working with a team comes with its resposibility. One must have pay attention and have a functioning
-                                                            sense of empathy to progress as a member of that team. 
+                                                            Working in a team comes with its responsibility's.
+                                                            Paying attention to how you communicate with co-workers and having a functioning
+                                                            sense of empathy is a key ingredient to successful integration with a team.
                                                         </p>
                                                         <p>
                                                             <ul class="modal-list">
-                                                                <li>Focusing on process</li>
-                                                                <li>Knowing that you will have to and need to ask questions</li>
-                                                                <li>Strategically thinking in pressured environments</li>
-                                                                <li>Being mentored as well as being a mentor, not micro-managing</li>
+                                                                <li>Focusing on the process.</li>
+                                                                <li>Knowing that you will have to, and need to ask questions.</li>
+                                                                <li>Strategically thinking in pressured environments.</li>
+                                                                <li>Being mentored as well as being a mentor, not micro-managing.</li>
                                                             </ul>
                                                         </p>
                                                     </div>
@@ -598,18 +608,21 @@
                                                     <div class="modal-body">
                                                         <p>
                                                             <h3>Communication</h3>
-                                                            I understand how to effectively communicate with both teammates and customers. Customer facing sales was 
-                                                            daily life for a long time. Making sure the customers had a good company experience.   
+                                                            I understand how to effectively communicate with both teammates
+                                                            and customers. Customer facing sales was a daily part of life for me.
+                                                            Making sure the customers had a good company experience my responsibility
+                                                            and one I took seriously.   
                                                         </p>
                                                         <p>
-                                                            I am too famililar with high pressure environments where interupptions are constant. I learned many 
-                                                            methods to keep track of my work while working on multiple projects at the same time. All of which made me 
-                                                            improve my skill with the following -
+                                                            I am too familiar and comfortable with high-pressure environments where
+                                                            interruptions are constant. I learned many methods to keep track of my work
+                                                            while working on multiple projects at the same time. All of which allowed me
+                                                            to improve my skill with the following.
                                                             <ul class="modal-list">
-                                                                <li>Picking up where I left up! Seems simple but anyone with experience knows that it's not!</li>
-                                                                <li>Keeping notes on current tasks &amp; working consistently.</li>
-                                                                <li>Listen! Being patient and listening does wonders.</li>
-                                                                <li>Always looking for ways to improve my process and approach in work. </li>
+                                                                <li>Picking up where I left off... Seems simple but anyone with experience knows that it's not!</li>
+                                                                <li>Keeping notes on current tasks &amp; consistently making progress.</li>
+                                                                <li>Listen! Being patient and listening can work wonders.</li>
+                                                                <li>Always looking for ways to improve my process and workflow.</li>
                                                             </ul>
                                                         </p>
                                                     </div>
@@ -673,7 +686,8 @@
                         </div> -->
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">More Coming Soon...</a>
+                    <hr class="small">
+                    <a href="#" class="btn btn-dark">More Coming Soon...</a> 
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -687,9 +701,72 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>The buttons below are samples created to hold this space.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                    <h3>To find out more about me or my services, please click!</h3>
+                    <hr class="small">
+                    <a href="services.html" id="#servicesPage" class="btn btn-lg btn-light">Services</a>
+                    <!-- <a href="#" class="btn btn-lg btn-dark">More about me!</a> -->
+
+        <!-- Modal Start for MoreMe  -->
+                    
+                    <!-- Trigger the modal with this button -->
+                    <button type="button" class="btn btn-lg btn-dark" data-toggle="modal" data-target="#moreMe">More about me!</button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="moreMe" role="dialog">
+                            <div class="modal-dialog">
+                            
+                            <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                                            <!-- Start Modal Header  -->
+                                            <!-- <h4 class="modal-title">Modal Header</h4> -->
+                                        <div class="service-item-modal">
+                                            <span class="fa-stack fa-4x">
+                                                  <!-- <i class="fa fa-circle fa-stack-2x"></i>   -->
+                                                <i class="fa fa-search fa-stack-2x"></i>
+                                                <!-- <i class="fa fa-thumbs-o-up fa-stack-1x text-primary"></i> -->
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                <!-- Start Modal Body  -->
+                                    <div class="modal-body">
+                                        <p>
+                                            <!-- <img class="myPhoto" src="img/myPhoto.jpg" alt="my photo"> -->
+                                            <div><img src="img/mainPic.PNG" alt="my photo"></div>
+                                            <h3>More about me!</h3>
+                                            <hr class="small">
+                                            Hello, my name is John. Thank you for taking the time to view my profile!
+                                            I am a self taught developer and designer. I have been increasing my level 
+                                            of skill over the last two years. When I first started I literally tried  
+                                            a lot devlopment of technologies. I have done a lot of self study using
+                                            sources such as Udemy.com, Lynda.com and Codeschool.com
+                                            <br>
+                                        </p>
+                                        <p>
+                                            This was all in an effort to feel out what I liked, and understand my wants! 
+                                            I began to fine-tune and focus on the basics and have been focusing on UI/UX 
+                                            principles, HTML5, CSS3, along with some JavaScript.
+                                            <hr class="small">
+                                            <h4>Facts about me:</h4>
+                                            <ul class="modal-list">
+                                                <li>I have a lot of client facing experience from the automotive industry where I was a Service Advisor.</li>
+                                                <li>I enjoy sketching and drawing, its probably one of the main reasons UI/UX is interesting to me.</li>
+                                                <li>I enjoy the fitness lifestyle as it has allowed me to physically and mentally change myself.</li>
+                                                <li>I can't stand complacency and am always looking for ways to improve myself and grow every day.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Modal End for MoreMe  -->
+
                 </div>
             </div>
         </div>
@@ -707,8 +784,12 @@
     <aside> 
         <section id="contact" class="contact">
             <div class="text-vertical-center">
-              <h1>It's Nice to Meet You</h1>
-              
+              <h1 id="imgMargin">It's Nice to Meet You</h1>
+              <hr class="small">
+                <!-- <div class="myPhoto"><img src="img/mainPic.png" alt="my photo"></div> -->
+                <img class="myPhoto" src="img/myPhoto.PNG" alt="my photo">
+                <hr class="small">
+              <h2>My name is John Kourieh</h2>
             </div>
         </section>    
     </aside>
@@ -720,12 +801,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <img src="img/jmLogo.jpg" alt="jmlogo">
                     <h3><strong>John H. Kourieh</strong>
                     </h3>
-                    <p>411 Victory Blvd.
-                        <br>Phoenix, AZ 85254</p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (602) 677-7757</li>
+                         <li><i class="fa fa-phone fa-fw"></i> (602) 677-7757</li> 
                         <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:hkourieh@icloud.com">john@jovikmedia.com</a>
                         </li>
                     </ul>
@@ -743,7 +823,7 @@
                     </ul> -->
                     <!-- <hr class="small"> -->
                     <p class="text-muted" class="col-lg-12">
-                        Copyright &copy; KouriehJohn 2017
+                        Copyright &copy; JovikMedia 2017
                     </p>
                     <!-- <div class="col-lg-12">
                         Copyright © KouriehJohn 2017
