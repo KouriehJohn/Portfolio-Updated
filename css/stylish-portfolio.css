@@ -62,6 +62,7 @@ h1 {
 .btn-dark:active {
     color: #fff;
     background-color: rgba(0,0,0,0.7);
+    box-shadow: 0 2px 3px 0 #333;
 }
 
 .btn-light {
@@ -76,7 +77,7 @@ h1 {
 .btn-light:active {
     color: #333;
     background-color: rgba(255,255,255,0.8);
-    box-shadow: 0 2px 3px 0 #222; 
+    box-shadow: 0 2px 3px 0 #333; 
 }
 
 /* Custom Horizontal Rule */
