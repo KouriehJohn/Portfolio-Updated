@@ -12,7 +12,8 @@
     <title>JovikMedia</title>
 
     <!-- Normalize CSS  -->
-    <link rel="stylesheet" type="text/css" href="normalize/normalize.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"></script>
+     <link rel="stylesheet" type="text/css" href="normalize/normalize.css"> 
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -668,18 +669,76 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <!-- <a href="#"> -->
+                                <a href="#myPort" data-toggle="modal" data-target="#myPort1">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                <a href="#myPort" data-toggle="modal" data-target="#myPort2">
+                                     <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"> 
                                 </a>
                             </div>
                         </div>
+                                    
+                        <!-- Modal Port1-->
+                        <div class="modal fade" id="myPort1" role="dialog">
+                            <div class="modal-dialog">
+                            
+                            <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div class="service-item-modal">
+                                            <span class="fa-stack fa-4x">
+                                                <i class="fa fa-thumbs-o-up fa-stack-1x text-primary"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Start Modal Body  -->
+                                        <div class="modal-body">
+                                            <p>
+                                                <h3>Port1</h3>
+                                            </p>
+                                         </div>
+                                     <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                        <!-- Modal Port2-->
+                        <div class="modal fade" id="myPort2" role="dialog">
+                            <div class="modal-dialog">
+                            
+                            <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div class="service-item-modal">
+                                            <span class="fa-stack fa-4x">
+                                                <i class="fa fa-thumbs-o-up fa-stack-1x text-primary"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Start Modal Body  -->
+                                        <div class="modal-body">
+                                            <p>
+                                                <h3>Port2</h3>
+                                            </p>
+                                         </div>
+                                     <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         
+
+
                         <!-- <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
@@ -852,6 +911,8 @@
 
      <!-- Custom JavaScript -->
     <script src="js/custom.js"></script>
+
+    <sctipt src="js/modal.js"></sctipt>
 
     <!-- When needed = Disable Google Maps scrolling -->
     <!-- <script src="js/mapcontrol.js"></script> -->

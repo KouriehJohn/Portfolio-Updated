@@ -12,7 +12,8 @@
     <title>JovikMedia</title>
 
     <!-- Normalize CSS  -->
-    <link rel="stylesheet" type="text/css" href="normalize/normalize.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"></script>
+     <link rel="stylesheet" type="text/css" href="normalize/normalize.css"> 
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,11 +49,8 @@
                 <a href="#top" onclick=$("#menu-close").click();>John Kourieh</a>
             </li>
             <hr class="small">
-            <li>
-                <span class="fa-stack fa-1x">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-check-square fa-stack-1x text-primary"></i>
-                 </span>
+            <li
+            >
                 <a href="#top" onclick=$("#menu-close").click();>Home</a>
             </li>
             <li>
@@ -68,8 +66,10 @@
                 <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
             </li>
             <li>
-                <a href="services.html" onclick=$("#menu-close").click();>Services  <img src="img/favicon1.ico" alt="image/x-icon"></a>
+                <a href="services.html" onclick=$("#menu-close").click();>Services</a>
             </li>
+
+            
         </ul>
     </nav>
 
@@ -144,16 +144,27 @@
                                                             <h2>HTML5</h2>
                                                             Being the base of everything on the web, it was important to spend 
                                                             a fair amount of time practicing and getting very familiar with. I am 
-                                                            practiced with the new HTML5 features, to list a few.
+                                                            practiced with the new HTML5 features, here's a few tags, to list a some 
+                                                            of the new features.
                                                             </p>
                                                                 <hr class="small">
                                                             <p>
                                                                 <ul class="modal-list">
-                                                                    <li><h4>&lt;header&gt;</h4>- A more descriptive way to arrange the title sections on a site.</li>
-                                                                    <li><h4>&lt;footer&gt;</h4>-A more descriptive way to arrange the base sections on a site.</li>
-                                                                    <li><h4>&lt;nav&gt;</h4>- A clenaer way to lay out the naviation on sites.</li>
-                                                                    <li><h4>&lt;aside&gt;</h4>- Allows you to more easily arrange sections during tile layout.</li>
-                                                                    <li><h4>&lt;article&gt;</h4>- More cleanly labels and sections of parts of layout.</li>
+                                                                    <li>
+                                                                        <span>&lt;header&gt;</span> A more descriptive way to arrange the title sections on a site.
+                                                                    </li>
+                                                                    <li>
+                                                                        <span>&lt;footer&gt;</span> A more descriptive way to arrange the base sections on a site.
+                                                                    </li>
+                                                                    <li>
+                                                                        <span>&lt;nav&gt;</span> A clenaer way to lay out the naviation on sites.
+                                                                    </li>
+                                                                    <li>
+                                                                        <span>&lt;aside&gt;</span> Allows you to more easily arrange sections during tile layout.
+                                                                    </li>
+                                                                    <li>
+                                                                        <span>&lt;article&gt;</span> More cleanly labels and sections of parts of layout.
+                                                                    </li>
                                                                 </ul>
                                                             </p>
                                                         </div>
@@ -635,7 +646,6 @@
 
                                 <!-- Modal End for Communication  -->
 
-
                             </div>
                         </div>
                     </div>
@@ -654,22 +664,81 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 class="shadow">Portfolio</h2>
+                    <h2 class="shadow">Coming soon!</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <!-- <a href="#"> -->
+                                <a href="#myPort" data-toggle="modal" data-target="#myPort1">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                <a href="#myPort" data-toggle="modal" data-target="#myPort2">
+                                     <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"> 
                                 </a>
                             </div>
                         </div>
+                                    
+                        <!-- Modal Port1-->
+                        <div class="modal fade" id="myPort1" role="dialog">
+                            <div class="modal-dialog">
+                            
+                            <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div class="service-item-modal">
+                                            <span class="fa-stack fa-4x">
+                                                <i class="fa fa-thumbs-o-up fa-stack-1x text-primary"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Start Modal Body  -->
+                                        <div class="modal-body">
+                                            <p>
+                                                <h3>Port1</h3>
+                                            </p>
+                                         </div>
+                                     <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                        <!-- Modal Port2-->
+                        <div class="modal fade" id="myPort2" role="dialog">
+                            <div class="modal-dialog">
+                            
+                            <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div class="service-item-modal">
+                                            <span class="fa-stack fa-4x">
+                                                <i class="fa fa-thumbs-o-up fa-stack-1x text-primary"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Start Modal Body  -->
+                                        <div class="modal-body">
+                                            <p>
+                                                <h3>Port2</h3>
+                                            </p>
+                                         </div>
+                                     <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         
+
+
                         <!-- <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
@@ -686,7 +755,7 @@
                         </div> -->
                     </div>
                     <!-- /.row (nested) -->
-                    <hr class="small">
+                    <!-- <hr class="small"> -->
                     <a href="#" class="btn btn-dark">More Coming Soon...</a> 
                 </div>
                 <!-- /.col-lg-10 -->
@@ -701,7 +770,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>To find out more about me or my services, please click!</h3>
+                    <h3>Find out more about me and my services!</h3>
                     <hr class="small">
                     <a href="services.html" id="#servicesPage" class="btn btn-lg btn-light">Services</a>
                     <!-- <a href="#" class="btn btn-lg btn-dark">More about me!</a> -->
@@ -842,6 +911,8 @@
 
      <!-- Custom JavaScript -->
     <script src="js/custom.js"></script>
+
+    <sctipt src="js/modal.js"></sctipt>
 
     <!-- When needed = Disable Google Maps scrolling -->
     <!-- <script src="js/mapcontrol.js"></script> -->

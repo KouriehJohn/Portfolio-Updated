@@ -12,10 +12,41 @@ body {
     height: 100%;
 }
 
+
 body {
     font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* overflow-y: auto;  */
 }
 
+/* oveflow-y: "hidden" DOES fix the modal shift, BUT also causes the page to no longer SCROLL, 
+so I need to find the fix. I need the page to scroll, plus not shift...   */
+
+ /* .modal {
+    overflow-y: hidden;
+}  */
+
+body {
+    padding-right: 0 !important;
+} 
+/* This code FIXES the background from jumping to the left.   */
+
+body.modal-open {
+    overflow-y: scroll;
+    padding-right: 0 !important;
+}
+
+.modal-dialog {
+    overflow-y: initial !important
+}
+
+.modal-body{
+    height: 350px;
+    overflow-y: auto;
+    /* Sets the maximum height of the modal, and allows the modal body to Scroll.  */
+}
+
+
+/* TEST  */
 .shadow {
     text-shadow: #999 0.5px 0.5px;
 }
@@ -48,6 +79,11 @@ body {
 h1 {
     text-align: center;
 }
+
+/* TEST  */
+
+
+/* TEST  */
 
 /* Custom Button Styles */
 
