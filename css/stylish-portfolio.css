@@ -65,6 +65,7 @@ body.modal-open {
 }
 
 .contact {
+    padding: 50px 0;
     display: table;
     width: 100%;
     height: 500px;
@@ -301,16 +302,17 @@ background-color: #666;
 /* Used to center form grid on services page  */
 .serviceForm {
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 /* Callout */
 
 .callout {
+    padding: 50px 0;
     display: table;
     width: 100%;
     height: 600px;
-    color: #fff;
+     color: #fff; 
     background: url(../img/bg_training.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -366,7 +368,7 @@ background-color: #666;
     margin: 10px;
 }
 
-/* Map */
+/* Map - Not being used at the moment */
 
 .map {
     height: 500px;
@@ -377,6 +379,8 @@ background-color: #666;
         height: 75%;
     }
 }
+
+/* End Map  */
 
 .map iframe {
     pointer-events: none;
@@ -393,4 +397,56 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
+}
+
+/* Project Portfolio styles  */
+
+#buildBox {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.buildOut {
+    padding: 50px 0;
+    display: table;
+    width: 100%;
+    height: 600px;
+    color: #fff;
+     background: url(../img/bg_training.jpg) no-repeat center center scroll; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.build-item {
+    margin-bottom: 30px;
+}
+
+.img-build {
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.img-build:hover {
+    opacity: 0.8;
+}
+
+#buildh2 {
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+                                /* Service Page  */
+
+.contactForm {
+    padding: 50px 0;
+    display: table;
+    width: 100%;
+    height: 500px;
+    /* color: #fff; */
+    /* background: url(../img/contact.jpg) no-repeat center center scroll;     */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
